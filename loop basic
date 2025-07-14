@@ -1,0 +1,19 @@
+###for method.
+
+for(initaization;condition;operation){
+}
+
+int i = 1;
+for(;i<=10;cout<<i++<<endl){
+
+}
+
+
+}
+//while loop
+
+int i;
+while(condition){
+cout<<i;
+i++;
+}
