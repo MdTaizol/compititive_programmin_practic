@@ -1,0 +1,13 @@
+ while(0<1)//unlimited loop
+   {
+   	int x;
+   	cin>>x;
+   	if(x==42)
+   	{
+   		break;
+   	}
+   	cout<<x<<endl;
+   }
+
+return 0;
+	}
