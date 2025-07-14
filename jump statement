@@ -1,0 +1,27 @@
+
+//break
+int n;
+	cin>>n;
+	for(int i =1;i<=n;++i)
+
+	{
+		if(i==7)
+			break;
+		cout<< i <<endl;
+	}
+	
+}
+
+//continue statement;
+int n;
+	cin>>n;
+	for(int i =1;i<=n;++i)
+
+	{
+		if(i==7)
+		continue;
+		cout<< i <<endl;
+	}
+	
+}
+
