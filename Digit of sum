@@ -1,0 +1,13 @@
+int t; 
+	cin>>t;
+	while(t--){
+		int n;
+		cin>>n;
+		int digit= 0;
+			while(n>0){
+             int l= n%10;
+             digit= digit + l;
+             n = n/10;
+			}
+			cout<<digit<<endl;
+	}
