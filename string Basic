@@ -1,0 +1,97 @@
+#include<bits/stdc++.h>
+using namespace std;
+int main(){
+	#ifndef ONLINE_JUDGE
+	freopen("input.txt", "r" ,stdin);
+	freopen("ouput.txt", "w" ,stdout);
+	#endif
+
+// string str = "hallo";
+// str[1]='e';
+// string str1 = "rallo";
+// string result = str + str1;
+// cout<<result<<endl;
+// cout<<str1.size()<<endl;
+// if(str==str1)
+// {
+// 	cout<<"equal"<<endl;
+// }
+// else{
+// 	cout<<"not equal"<<endl;
+// }
+	// string s="ehllo";
+	// for( int i = 0;i<s.size();++i)
+	// {
+	// 	cout<<s[i]<<" ";
+	// }
+
+// string str,str1;
+// cin>>str>>str1;
+// cout<<str <<" "<<str1<<endl;
+
+//getline method
+	// int t;
+	// cin>>t;
+	// //t++;
+	// cin.ignore();
+	// while(t--){
+
+
+	// string s;
+	// string s1;
+	// getline(cin,s1);
+	// getline(cin,s);
+	// cout<<s<<endl;
+	// cout<<s1<<endl;
+// string s;
+// getline(cin,s);
+// cout<<s<<endl;
+// cout<<s.size()<<endl;
+// 	}
+
+// string s;
+// cin>>s;
+// string str_rev;
+// for(int i = s.size()-1;i>=0;--i)
+// {
+
+// str_rev.push_back(s[i]);
+// }
+// cout<<str_rev;
+
+
+// 
+
+// string s;
+// getline(cin,s);
+// string str_rev;
+// for(int i=s.size()-1;i>=0;--i){
+//   str_rev.push_back(s[i]);
+// }
+// if(s==str_rev){
+// 	cout<<"palindrome";
+// }
+// else{
+// 	cout<<"Not palindrome";
+// }
+
+// string s,r;
+// getline(cin,s);
+// for(int i = 0; i <=s.size()/2;i++){
+// 	if(s[i]==s[s.size()-1-i]){
+// 		cout<<"palindrome";
+// 		break;
+// 	}else{
+// 		cout<<"NOt palindrome";
+// 		break;
+// 	}
+// }
+
+string s;
+cin>>s;
+cout<<(int)s[s.size()-1]<<endl;
+cout<<s[s.size()-1]-'0';
+
+
+ }
+
