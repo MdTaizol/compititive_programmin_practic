@@ -1,0 +1,94 @@
+#include<bits/stdc++.h>
+using namespace std;
+
+  int  sum(int a,int b){
+  	
+          int result=a+b;
+           return result;
+
+   }
+
+int main(){
+	#ifndef ONLINE_JUDGE
+	freopen("input.txt", "r" ,stdin);
+	freopen("ouput.txt", "w" ,stdout);
+	#endif
+  
+  cout<<sum(2,4);
+ }
+
+
+
+#include<bits/stdc++.h>
+using namespace std;
+
+ int digit_sum(int n){
+ 	int digit_sums = 0;
+ 	while(n){
+
+
+       digit_sums = digit_sums + n % 10;
+        n = n/10;
+    
+         	}
+         	    return digit_sums;
+  }
+
+int main(){
+	#ifndef ONLINE_JUDGE
+	freopen("input.txt", "r" ,stdin);
+	freopen("ouput.txt", "w" ,stdout);
+	#endif
+
+int a,b;
+cin>>a>>b;
+cout<<digit_sum(a)+digit_sum(b);
+
+ }
+
+//reference
+
+#include<bits/stdc++.h>
+using namespace std;
+
+void increment(int &n,int &n1){
+	n++;
+n1++;
+}
+
+int main(){
+	#ifndef ONLINE_JUDGE
+	freopen("input.txt", "r" ,stdin);
+	freopen("ouput.txt", "w" ,stdout);
+	#endif
+int a = 3;
+int b = 4;
+cout<<a<<" " <<b<<endl;
+ increment(a,b);
+
+cout<< a<<" " <<b <<endl;
+
+#include<bits/stdc++.h>
+using namespace std;
+
+void increment(int &n,int &n1){
+	n++;
+n1++;
+}
+
+int main(){
+	#ifndef ONLINE_JUDGE
+	freopen("input.txt", "r" ,stdin);
+	freopen("ouput.txt", "w" ,stdout);
+	#endif
+int a = 3;
+int b = 4;
+cout<<a<<" " <<b<<endl;
+ increment(a,b);
+
+cout<< a<<" " <<b <<endl;
+
+
+ }
+
+
