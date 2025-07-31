@@ -1,0 +1,25 @@
+#include<bits/stdc++.h>
+using namespace std;
+
+
+int main(){
+	#ifndef ONLINE_JUDGE
+ 	freopen("ouput.txt", "w" ,stdout);
+	#endif
+    
+ int ans = 2&3;
+ cout<<ans<<endl;
+ int an = 2^3;
+ cout<<an<<endl;
+ int a = 2|3;
+ cout<<a<<endl;
+int b = 15<<2;
+cout<<b<<endl;
+int c = 13>>1;
+cout<<c<<endl;
+int d = ~5;
+cout<<d<<endl;
+int da = ~-5;
+cout<<da<<endl;
+
+}
