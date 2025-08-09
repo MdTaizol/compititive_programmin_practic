@@ -1,0 +1,94 @@
+
+
+//deciaml to binary converted.
+
+#include<bits/stdc++.h>
+using namespace std;
+int main()
+{
+
+    int n;
+    cin>>n;
+    int ans =0, r, m=1;
+    while(n>0)
+    {
+
+    r = n % 2;
+    n/=2;
+    ans+= r*m;
+    m*=10;
+
+    }
+    cout<< ans<<endl;
+
+    return 0;
+}
+
+
+//Binary to decinmal convertd code.
+
+#include<bits/stdc++.h>
+using namespace std;
+int main()
+{
+  int n;
+  cin>>n;
+  int ans =0,rem,mul= 1;
+
+   while(n>0)  {
+    rem = n % 10;
+    n = n / 10;
+    ans = rem * mul + ans;
+    mul = mul * 2;
+   }
+ cout<<ans<<endl;
+}
+ 
+//Decimal to Octal converted code.
+
+#include<bits/stdc++.h>
+using namespace std;
+int main(){
+
+int n;
+cin>>n;
+int ans =0,rem, mul=1;
+while(n>0){
+    rem = n % 10;
+    n = n/10;
+    ans+=rem*mul;
+    mul*=8;
+}
+cout<<ans;
+}
+
+
+//Binary to decimal and decimal to Octal converted code.
+
+#include<bits/stdc++.h>
+using namespace std;
+int main(){
+
+int n;
+cin>>n;
+int ans =0,rem, mul=1;
+while(n>0){
+        rem = n % 10;
+       n =n /10;
+       ans = rem*mul+ans;
+       mul = 2*mul;
+}
+int a = 0,r,m=1;
+while(ans>0){
+    r = ans % 10;
+     ans = ans/10;
+     a = r*m+a;
+     m*=8;
+}
+
+cout<<a<<endl;
+
+}
+
+            
+
