@@ -1,0 +1,66 @@
+https://codeforces.com/group/MWSDmqGsZm/contest/219158/problem/V
+
+#include<bits/stdc++.h>
+using namespace std;
+int main(){
+ int a,b,c;
+cin>>a>>b>>c;
+/* Method one solve i know:
+int small,mid,large;
+if(a<=b && b<=c)
+   small=a;
+else if(b<=a && b<=c)
+    small = b;
+else
+    small = c;
+
+
+if(a>= b&& a>=c)
+    large = a;
+else if(b>=a&&b>=c)
+    large = b;
+else
+    large = c;
+
+mid = a+b+c-small-large;
+
+cout<<small<<endl<<mid<<endl<<large<<endl;
+cout<<endl;
+cout<<a<<endl<<b<<endl<<c<<endl;
+ */
+
+ /*Method number two i know how to slove:
+  int arr[3]={a,b,c};
+  sort(arr, arr+3);
+  for(int i=0;i<3;i++){
+    cout<<arr[i]<<endl;
+  }
+cout<<endl;
+cout<<a<<endl<<b<<endl<<c<<endl;
+*/
+/* the third method i know who to solve:
+int arry[3]={a,b,c};
+sort(arry,arry+3);
+cout<<arry[0]<<endl<<arry[1]<<endl<<arry[2]<<endl;
+cout<<endl;
+cout<<a<<endl<<b<<endl<<c<<endl;
+*/
+if(a>b){
+    int temp = a;
+    a =  b;
+    b = temp;
+}
+if(a>c){
+    int temp = a;
+    a = c;
+    c = temp;
+}
+if(b>c){
+    int temp = b;
+    b = c;
+    c = temp;
+}
+cout<<a<<endl<<b<<endl<<c<<endl;
+cout<<endl;
+cout<<a<<endl<<b<<endl<<c<<endl;
+}
