@@ -1,0 +1,28 @@
+#include <bits/stdc++.h>
+using namespace std;
+
+int main() {
+	// your code goes here
+	  int T;
+    cin >> T;
+
+    while (T--) {
+        int N, X, K;
+        cin >> N >> X >> K;
+
+        int R = X % K;
+        if (R == 0) {
+            cout << 0 << endl;
+        } else {
+            int increase = K - R;
+            if (X + increase <= N) {
+                cout << min(R, increase) << endl;
+            } else {
+                cout << R << endl;
+            }
+        }
+    }
+
+    return 0;
+
+}
