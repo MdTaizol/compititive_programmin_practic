@@ -1,0 +1,18 @@
+https://www.codechef.com/START223D/problems/CASHBACK
+#include <bits/stdc++.h>
+using namespace std;
+
+int main() {
+    int X;
+    cin >> X;
+
+    int cashback = 0;
+    if (X >= 200) {
+        cashback = 50;
+    }
+
+    int c = X - cashback;
+    cout << c << endl;
+
+    return 0;
+}
